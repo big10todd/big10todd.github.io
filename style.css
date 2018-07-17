@@ -1,0 +1,54 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header.derby {
+  background-position: center;
+  background-image: url("horse.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.derby hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.derby h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-success {
+  background-color: #55AA55;
+  border-color: #55AA55; }
+
+.btn-sucess:hover {
+  background-color: #004400;
+  border-color: #004400;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
